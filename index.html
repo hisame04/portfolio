@@ -1,0 +1,407 @@
+﻿<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ゲームプログラマのポートフォリオ">
+    <title>
+      Portfolio | Game Programmer
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="is-loading">
+    <div class="page-loader" aria-hidden="true">
+      <span class="page-loader__star">✦</span>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#top">
+        <img src="assets/images/logo.png" alt="YOUR NAME のロゴ">
+      </a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="メインメニュー">
+        <a class="current" href="#top">
+          Top
+        </a>
+        <a href="#works">
+          Works
+        </a>
+        <a href="#career">
+          Career
+        </a>
+        <a href="#research">
+          Research
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section id="top" class="hero wrap">
+        <div class="hero-profile">
+          <div class="avatar">
+            <img src="assets/images/logo.png" alt="">
+          </div>
+          <div>
+            <p class="eyebrow">
+              HELLO, I’M
+            </p>
+            <p class="name-placeholder">
+              MEGU HISANAGA
+              <span>
+                学生/ゲームプログラマ
+              </span>
+            </p>
+          </div>
+        </div>
+        <div class="hero-intro">
+          <div>
+            <h1 class="profile-name">
+              <span class="name-reading">MEGU HISANAGA</span>
+              <span class="name-japanese">久永 萌</span>
+            </h1>
+            <p class="hero-copy">
+              <span class="school-name">慶應義塾大学 環境情報学部3年</span>
+              <span>ゲーム制作と、分散VRに関する研究に取り組んでいます。</span>
+              <span>デザインの意図と実装の制約の間を繋ぎ、表現と操作感の両面からプレイヤーが入り込める体験を実現したいと考えています。</span>
+              <span>ユーザーの目をキラキラさせる表現を、技術によって魅力が伝わる体験へと磨き上げられるエンジニアを目指しています。</span>
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#works">
+                作品を見る
+                <span>
+                  ↓
+                </span>
+              </a>
+              <a class="text-link" href="#career">
+                経歴・研究活動を見る
+              </a>
+            </div>
+          </div>
+          <div class="profile-cluster">
+            <div class="profile-frame profile-frame--main">
+              <div class="profile-photo">
+                <img src="assets/images/hisame.JPG" alt="MEGU HISANAGAのプロフィール写真">
+              </div>
+              <span class="profile-sparkle sparkle-top" aria-hidden="true">✦</span>
+              <span class="profile-sparkle sparkle-side" aria-hidden="true">✦</span>
+            </div>
+          </div>
+        </div>
+        <dl class="quick-facts">
+          <div>
+            <dt>
+              Focus
+            </dt>
+            <dd>
+              表現と操作感でつくる、没入できるゲーム体験
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Currently
+            </dt>
+            <dd>
+              Unityゲーム制作 / 分散VRの研究
+            </dd>
+          </div>
+          <div>
+            <dt>
+              Tools
+            </dt>
+            <dd>
+              Unity · C# · Git
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section id="works" class="wrap section page all-works">
+        <p class="eyebrow">ALL WORKS</p>
+        <h2>作品一覧</h2>
+        <p class="page-lead">これまでに制作した作品を掲載しています。動画や画像から実際の作品の様子をご覧いただけます。</p>
+        <div class="filters" role="group" aria-label="作品カテゴリ">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="game">Game</button>
+          <button class="filter" data-filter="web">Web</button>
+        </div>
+        <div class="project-list"></div>
+      </section>
+        <section class="wrap section strengths">
+          <div>
+            <p class="eyebrow">
+              WHAT I BRING
+            </p>
+            <h2>
+              ゲーム開発で
+              <br>
+              大切にしていること
+            </h2>
+          </div>
+          <div class="strength-list">
+            <article>
+              <span>
+                01
+              </span>
+              <h3>
+                世界観を、触れられる体験として実装する
+              </h3>
+              <p>
+                表現と操作感をつなぎ、遊ぶ人に伝わる体験へ落とし込む実装をする。
+            </article>
+            <article>
+              <span>
+                02
+              </span>
+              <h3>
+                制約の中でも、よりよい形を探す
+              </h3>
+              <p>
+                既存の技術にとらわれず、目的に合う方法や制約の中での解決方法を考えて試していく。
+              </p>
+            </article>
+            <article>
+              <span>
+                03
+              </span>
+              <h3>
+                分野を越え、チームでつくり上げる
+              </h3>
+              <p>
+                企画・デザインなど異なる役割のメンバーと対話し、認識をすり合わせながらより良い体験を技術で形にする。
+              </p>
+            </article>
+          </div>
+        </section>
+        <section id="career" class="wrap section career-section">
+          <p class="eyebrow">
+            CAREER
+          </p>
+          <h2>
+            経歴
+          </h2>
+          <p class="page-lead">
+            プログラミングに出会ったきっかけから、これまでの開発やチームでの取り組みの経験をまとめています。
+          </p>
+          <div class="timeline">
+            <article>
+              <time>
+                2023
+              </time>
+              <div>
+                <p class="tag">
+                  BEGINNING
+                </p>
+                <h2>
+                  プログラミングとの出会い
+                </h2>
+                <p>
+                  高校の選択授業でプログラミングに触れ、簡単なゲームを作成しました。ものづくりの手段としてコードを使うことに興味を持ちました。
+                </p>
+                <p class="turning-point"><span>TURNING POINT</span><strong>コーディングを学ぶことができる進路を選択</strong></p>
+              </div>
+            </article>
+            <article>
+              <time>
+                2024.4 — Current
+              </time>
+              <div>
+                <p class="tag">
+                  COMMUNITY
+                </p>
+                <h2>
+                  大学のゲームコミュニティへの参加
+                </h2>
+                <p>
+                  大学のSplatoonコミュニティに参加し、イベントに参加しました。ゲーム業界のOB・OGの方々と交流する機会を得ました。
+                </p>
+                <p class="turning-point"><span>TURNING POINT</span><strong>ゲーム業界への興味を持ち始める</strong></p>
+              </div>
+            </article>
+            <article>
+              <time>
+                2024.5 — 2025.07
+              </time>
+              <div>
+                <p class="tag">
+                  COMMUNITY / LEADERSHIP
+                </p>
+                <h2>
+                  第36回七夕祭 実行委員会
+                </h2>
+                <p>
+                  公式HP制作チームで、HP作成タスクリーダーを担当しました。異なる技術力やマインドのメンバーをまとめる経験や、他の役職(特にデザイン担当者)との連携の重要性を学びました。
+                </p>
+              </div>
+            </article>
+            <article>
+              <time>
+                2025.07 — Current
+              </time>
+              <div>
+                <p class="tag">
+                  GAME DEVELOPMENT
+                </p>
+                <h2>
+                  Life is Tech! Unityコース
+                </h2>
+                <p>
+                  Leadersプログラムに参加し、Unityを用いたゲーム開発を基礎から学びました。その上で、イベントで中高生にUnityの技術を教え、イベント全体を通じてゲーム開発の楽しさを伝える体験づくりに注力しています。
+                </p>
+                <p class="turning-point"><span>TURNING POINT</span><strong>個人でのゲーム制作を開始</strong></p>
+              </div>
+            </article>
+            <article>
+              <time>
+                2026.03
+              </time>
+              <div>
+                <p class="tag">
+                  HACKATHON / AI
+                </p>
+                <h2>
+                  GDGoC Japan Hackathon
+                </h2>
+                <p>
+                  4人チームでAIを活用した友達探しプラットフォームを開発し、開催地AI賞を受賞しました。機能ごとに役割分担を決め、AIを用いたチャット機能の部分を担当しました。
+                  チームでのアーキテクチャ統一などの課題を経験し、チーム開発の難しさと楽しさを学びました。
+                </p>
+              </div>
+            </article>
+            <article>
+              <time>
+                2026.04 — Current
+              </time>
+              <div>
+                <p class="tag">
+                  WEB DEVELOPMENT
+                </p>
+                <h2>
+                  研究会 Webサイト運用
+                </h2>
+                <p>
+                  研究会のWebサイトの運用を担当しています。研究会の活動内容や成果、メンバーの情報の整理などを研究会の方々と相談しながら行っています。
+                </p>
+              </div>
+            </article>
+          </div>
+          <section class="internships" aria-labelledby="internships-title">
+            <p class="eyebrow">
+              INTERNSHIPS
+            </p>
+            <h2 id="internships-title">
+              インターンシップ
+            </h2>
+            <div class="internship-list">
+              <article>
+                <time>2026.07</time>
+                <div><p class="tag">GAME DEVELOPMENT</p><h3>Cygames サマーインターンシップ</h3><p>ゲーム開発の一連の流れを学び、現在地と今後の学習の方向性を考える機会になりました。</p></div>
+              </article>
+              <article>
+                <time>2026.08 — 2026.09</time>
+                <div><p class="tag">APPLICATION</p><h3>freee 2week就業型サマーインターンシップ</h3><p>要件定義・設計の考え方や、チームで意見を出し合うことの大切さを実践的に学びました。</p></div>
+              </article>
+              <article>
+                <time>2026.09</time>
+                <div><p class="tag">GAME DEVELOPMENT</p><h3>CA Game JYM</h3><p>チーム開発を通じてゲーム開発の工数管理やAI活用、現場で求められる役割について学びました。</p></div>
+              </article>
+              <article>
+                <time>2026.09 — 2026.10</time>
+                <div><p class="tag">APPLICATION</p><h3>EXNOA 就業型インターンシップ</h3><p>1ヶ月半の実務を通じ、ソフトウェアアーキテクチャとコードレビューを踏まえた設計を学びました。</p></div>
+              </article>
+            </div>
+          </section>
+          <div class="skills-section">
+            <p class="eyebrow">
+              SKILLS
+            </p>
+            <h2>
+              技術スタック
+            </h2>
+            <div class="skill-groups">
+              <div class="skill-development">
+                <h3>LANGUAGE</h3>
+                <p class="skill-note">制作経験をもとにした自己評価</p>
+                <p class="skill-note">（★★★：自走して実装・改善できる　★★☆：調べながら制作に活用できる　★☆☆：基本的な文法がわかる）</p>
+                <dl class="skill-levels">
+                  <div><dt>C# / HTML・CSS</dt><dd aria-label="5段階中5">★★★</dd></div>
+                  <div><dt>TypeScript / Python / Dart / Ruby(Rails)</dt><dd aria-label="5段階中3">★★☆</dd></div>
+                  <div><dt>C / C++</dt><dd aria-label="5段階中3">★☆☆</dd></div>
+                </dl>
+              </div>
+              <div class="skill-workflow">
+                <h3>TOOLS &amp; WORKFLOW</h3>
+                <dl class="workflow-list">
+                  <div><dt>Game Development</dt><dd>Unity / Pyxel</dd></div>
+                  <div><dt>Collaboration</dt><dd>Git / GitHub</dd></div>
+                  <div><dt>Design Tool</dt><dd>Figma / </dd></div>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="research" class="wrap section research-section">
+          <p class="eyebrow">
+            RESEARCH
+          </p>
+          <h2>
+            研究活動
+          </h2>
+          <p class="page-lead">
+            現在、バンミーター・植原合同研究会(SFC RG)で取り組んでいる研究内容についてです。
+          </p>
+          <div class="research-card">
+            <p class="tag">
+              RESEARCH THEME
+            </p>
+            <h2>
+              研究テーマ：
+              <small>
+                分散VRにおけるdelta-CRDTを用いたデータ同期
+              </small>
+            </h2>
+            <div class="research-grid">
+              <div>
+                <h3>
+                  背景・課題
+                </h3>
+                <p>
+                  サーバーに依存しない分散型VRによって、低遅延で自由に共有できるVR空間の実現を目指しています。先行研究の手法では、通信コストの高さが課題です。
+                </p>
+              </div>
+              <div>
+                <h3>
+                  アプローチ
+                </h3>
+                <p>
+                  共同編集に用いられるdelta-CRDTを使用し、距離に応じた配送頻度の調整をすることで通信コストを削減する手法を提案します。
+                </p>
+              </div>
+              <div>
+                <h3>
+                  成果・今後
+                </h3>
+                <p>
+                  delta-CRDTを用いた分散VRのプロトタイプを実装し、通信コストの削減を確認しました。
+                  今後は、ACK管理の工夫やVRへの最適化などを行い、実際のVR空間での実用性を検証していく予定です。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>
+          &copy;
+          <span id="year">
+          </span>
+          Megu Hisanaga
+        </p>
+      </footer>
+      <script src="projects.js" charset="utf-8">
+      </script>
+      <script src="script.js" charset="utf-8">
+      </script>
+    </body>
+  </html>
