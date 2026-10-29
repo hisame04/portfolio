@@ -1181,6 +1181,20 @@ footer {
   color:var(--muted);
   font:10px ui-monospace,SFMono-Regular,monospace
 }
+.footer-links {
+  margin:0
+}
+.footer-links a {
+  color:var(--ink);
+  text-decoration:none
+}
+.footer-links a:hover {
+  color:var(--accent-strong)
+}
+.footer-links a:focus-visible {
+  outline:2px solid var(--accent-strong);
+  outline-offset:4px
+}
 @media(max-width:720px) {
   .site-header {
     height:61px
